@@ -10,7 +10,7 @@
         <collectionProp name="Arguments.arguments">
           <elementProp name="IP" elementType="Argument">
             <stringProp name="Argument.name">IP</stringProp>
-            <stringProp name="Argument.value">${__P(IP,158.69.21.153)}</stringProp>
+            <stringProp name="Argument.value">${__P(IP, 172.81.179.36)}</stringProp>
             <stringProp name="Argument.metadata">=</stringProp>
           </elementProp>
           <elementProp name="PORT" elementType="Argument">
@@ -31,7 +31,7 @@
         <stringProp name="HTTPSampler.port">${PORT}</stringProp>
         <stringProp name="HTTPSampler.protocol"></stringProp>
         <stringProp name="HTTPSampler.contentEncoding"></stringProp>
-        <stringProp name="HTTPSampler.path"></stringProp>
+        <stringProp name="HTTPSampler.path">/webapp</stringProp>
         <stringProp name="HTTPSampler.concurrentPool">6</stringProp>
         <stringProp name="HTTPSampler.connect_timeout"></stringProp>
         <stringProp name="HTTPSampler.response_timeout"></stringProp>
